@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8fc;
+  color: #333;
+ background: url(20.1.jpeg);
+    height: 100vh;
+     background-size: 100%;
+    }
+
+.testimonial-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.subtitle {
+  color: #ff6f61;
+  font-weight: 600;
+  background-color: #ffecec;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 300px;
+  text-align: left;
+}
+
+.quote {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.user-info h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #999;
+}
